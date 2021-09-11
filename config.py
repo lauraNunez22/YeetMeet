@@ -1,6 +1,7 @@
 import os
 class Config(object):
-    BOT_TOKEN = os.environ.get('BOT_TOKEN')
+   BOT_TOKEN = os.environ.get('BOT_TOKEN')
+    SCHEDULE = os.environ.get('SCHEDULE', False)
     USERID = os.environ.get('USERID')
 
 # If you're not familiar with how to set Environment Variables you can do like this instead
