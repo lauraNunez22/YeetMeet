@@ -1,6 +1,6 @@
 import os
 class Config(object):
-    BOT_TOKEN = os.environ.get('BOT_TOKEN','')
+    BOT_TOKEN = os.environ.get('BOT_TOKEN',)
     GUSERNAME = os.environ.get('GUSER_NAME','')
     GPASSWORD = os.environ.get('GPASSWORD','')
     SCHEDULE = os.environ.get('SCHEDULE',False)

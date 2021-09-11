@@ -1,5 +1,4 @@
-# [NOTE] this version only work for ZOOM Meeting if you want set scheduler then use your telegram app schedule option
-
+# [NOTE] If you get Couldn't Sign In or App not Secure error while logging in. Create and use a fresh google account.
 
 
 # YEET MEET (Telegram Group: https://t.me/YeetMeetTG)
