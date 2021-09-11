@@ -8,8 +8,7 @@ from os import execl
 from sys import executable
 from bot import updater, dp, browser
 
-from bot.meet_login import mlogin
-from bot.zoom_login import zlogin
+
 
 from bot.meet import meet
 from bot.zoom import zoom
@@ -47,8 +46,7 @@ def main():
     dp.add_handler(CommandHandler("exit", exit))
     dp.add_handler(CommandHandler("status", status))
     
-    dp.add_handler(CommandHandler("mlogin", mlogin))
-    dp.add_handler(CommandHandler("zlogin", zlogin))
+   
 
     logging.info("Bot started")
 

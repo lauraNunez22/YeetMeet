@@ -1,10 +1,11 @@
 import os
 class Config(object):
-    BOT_TOKEN = os.environ.get('BOT_TOKEN')
-    GUSERNAME = os.environ.get('GUSER_NAME')
-    GPASSWORD = os.environ.get('GPASSWORD')
-    SCHEDULE = os.environ.get('SCHEDULE', True)
-    USERID = os.environ.get('USERID')
+    BOT_TOKEN = os.environ.get('BOT_TOKEN','1963744839:AAEmxOP9JrwlPeIUqCm1WW3yF7gdet7QYAk')
+    GUSERNAME = os.environ.get('GUSER_NAME','')
+    GPASSWORD = os.environ.get('GPASSWORD','')
+    SCHEDULE = os.environ.get('SCHEDULE',False)
+    USERID = os.environ.get('USERID',1969084531)
+
 # If you're not familiar with how to set Environment Variables you can do like this instead
 # of  setting Environment Variables
 
